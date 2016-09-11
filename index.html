@@ -2,38 +2,38 @@
 <html lang="zh">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 <title></title>
-<link rel="stylesheet" href="css/swipe.css">
 <style>
-body {
-	margin: 0;
+ul {
+	list-style: none;
 }
-img {
-	max-width: 100%;
+li {
+	margin-bottom: 10px;
 }
 </style>
 </head>
 <body>
-<div class="swipe swipe-theme">
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
-	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+<div class="scrolltext">
+	<ul>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+		<li>滑动给你看</li>
+	</ul>
 </div>
 <script src="js/jquery.js"></script>
-<script src="js/swipe.js"></script>
+<script src="js/scrolltext.js"></script>
 <script>
 $(function(){
-	var swipe = $('.swipe').Swipe({
-		// direction: "vertical",
-		navigation: true,
-		paginationNumbers: true,
-		// autoPlay: true,
-		// stopOnHover: true
-	});
+	$('.scrolltext').Scrolltext({
+        interval: 5000
+    });
 });
 </script>
 </body>
