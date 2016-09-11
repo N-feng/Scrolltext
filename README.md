@@ -6,6 +6,10 @@
 文字滑动插件
 ```
 
+## Example
+
+**Visit the [demo page](http://s.codepen.io/N-feng/pen/QKjVWZ/)**
+
 ## Options
 
 ```js
