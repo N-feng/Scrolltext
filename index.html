@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title></title>
+<link rel="stylesheet" href="css/swipe.css">
+<style>
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+</style>
+</head>
+<body>
+<div class="swipe swipe-theme">
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+	<div><img src="http://img.yi114.com/20168810299_fish.jpg"></div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/swipe.js"></script>
+<script>
+$(function(){
+	var swipe = $('.swipe').Swipe({
+		// direction: "vertical",
+		navigation: true,
+		paginationNumbers: true,
+		// autoPlay: true,
+		// stopOnHover: true
+	});
+});
+</script>
+</body>
+</html>
