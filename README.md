@@ -14,7 +14,7 @@
 
 ```js
 /**
- * swipe 
+ * scrolltext 
  * @param {[Int]} 			interval			定义滚动间隙时间
  */
 ```

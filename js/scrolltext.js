@@ -1,12 +1,12 @@
 ;
-(function($,window){
+(function($, window){
 
 	function Scrolltext(config, selector) {
 		var defaults = {
 			interval: 3000
 		};
 		this.$selector = selector;
-		this.config = $.extend(defaults,config);
+		this.config = $.extend(defaults, config);
 		this.init();
 	};
 
